@@ -18,6 +18,13 @@ import { PurchaseHistoryListingPageComponent } from './components/purchase-histo
   ],
   imports: [
     CommonModule
-  ]
+  ],
+  exports: [
+    SignInPageComponent,
+    ProductListingPageComponent,
+    ProductRegisteringPageComponent,
+    StockRegisteringPageComponent,
+    PurchaseHistoryListingPageComponent
+  ],
 })
 export class PagesModule { }
