@@ -5,6 +5,8 @@ import { ProductListingPageComponent } from './components/product-listing-page/p
 import { ProductRegisteringPageComponent } from './components/product-registering-page/product-registering-page.component';
 import { StockRegisteringPageComponent } from './components/stock-registering-page/stock-registering-page.component';
 import { PurchaseHistoryListingPageComponent } from './components/purchase-history-listing-page/purchase-history-listing-page.component';
+import {NgxTranslateModule} from "../ngx-translate/ngx-translate.module";
+import {HttpClientModule} from "@angular/common/http";
 
 
 
@@ -17,7 +19,9 @@ import { PurchaseHistoryListingPageComponent } from './components/purchase-histo
     PurchaseHistoryListingPageComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    HttpClientModule,
+    NgxTranslateModule,
   ],
   exports: [
     SignInPageComponent,
