@@ -7,6 +7,8 @@ import { StockRegisteringPageComponent } from './components/stock-registering-pa
 import { PurchaseHistoryListingPageComponent } from './components/purchase-history-listing-page/purchase-history-listing-page.component';
 import {NgxTranslateModule} from "../ngx-translate/ngx-translate.module";
 import {HttpClientModule} from "@angular/common/http";
+import {ReactiveFormsModule} from "@angular/forms";
+import {MaterialModule} from "../material/material.module";
 
 
 
@@ -22,6 +24,8 @@ import {HttpClientModule} from "@angular/common/http";
     CommonModule,
     HttpClientModule,
     NgxTranslateModule,
+    MaterialModule,
+    ReactiveFormsModule
   ],
   exports: [
     SignInPageComponent,
